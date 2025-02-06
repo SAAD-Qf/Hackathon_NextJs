@@ -12,7 +12,7 @@ export default function Aboutus() {
             <Image
               className="object-cover object-center w-336px h-536px mt-530px ml-300px radius-6px"
               alt="hero"
-              src= "/about1.png" width={309} height={536} 
+              src= "/About/img1.png" width={309} height={536} 
             />
           </div>
           {/* Right Images */}
@@ -20,14 +20,14 @@ export default function Aboutus() {
             <Image
               className="object-cover object-center w-309px h-271px mt-584px ml-660px radius-6px"
               alt="image2"
-              src="/youget.png"
+              src="/About/img2.png"
               width={309} height={271}
             />
             {/* Bottom Image */}
             <Image
-              className="object-cover object-center w-309px h-382px mt-882px ml-660px radius-6px"
+              className="object-cover object-center rounded-lg w-309px h-482px mt-882px ml-660px radius-6px"
               alt="image3"
-              src="/youget2.png"
+              src="/About/img3.png"
               width={309} height={382}
             />
           </div>
@@ -36,10 +36,10 @@ export default function Aboutus() {
             <h1 className="text-2xl mb-4 Headdesign text-yellow-400 italic">
               About us _____
             </h1>
-            <p className="text-black title-font text-3xl font-bold">
+            <p className="text-yellow-700 title-font text-3xl font-bold">
               Food is an important part of a balanced Diet
             </p>
-            <p className="mb-8 leading-relaxed mt-8 text-[#333333]">
+            <p className="mb-8 leading-relaxed mt-8 text-[#8a7d7d]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
               diam pellentesque bibendum non dui volutpat fringilla bibendum.
               Urna, elit augue urna, vitae feugiat pretium donec id elementum.
@@ -50,7 +50,7 @@ export default function Aboutus() {
               <button className="inline-flex text-white bg-orange-400 border-0 py-2 px-3 focus:outline-none rounded text-lg">
                 Show More
               </button>
-              <button className="ml-4 inline-flex text-black  border-0 py-2 px-3 focus:outline-none rounded text-lg">
+              <button className="ml-4 inline-flex text-yellow-700  border-0 py-2 px-3 focus:outline-none rounded text-lg">
                 <IoPlayOutline className="mr-2 block" /> {/* Icon on the left */}
                 Watch video
               </button>
@@ -62,13 +62,13 @@ export default function Aboutus() {
       {/* Second Section */}
       <section className="text-white body-font">
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col w-[579px]">
-            <h1 className="text-black text-3xl text-bold mt-3">Why Choose Us</h1>
-            <p className="text-black text-center mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam 
+            <h1 className="text-yellow-700 text-3xl text-bold mt-3">Why Choose Us</h1>
+            <p className="text-yellow-700 text-center mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam 
             pellentesque bibendum non dui volutpat fringilla bibendum.</p>
           <Image
-            className="mb-10 object-cover object-center w-1320px h-386px mt-1552px ml-300px mt-10"
+            className="mb-10 object-cover rounded-lg object-center w-1320px h-586px mt-1552px ml-300px mt-10"
             alt="hero"
-            src = "/about.png"
+            src = "/About/about.png"
             width={1320} height={386}
           />
         </div>
